@@ -1,0 +1,21 @@
+{
+	"name": "mercedes-challange",
+	"version": "1.0.0",
+	"description": "Mercedes challange using Cypress and Allure ",
+	"main": "index.js",
+	"scripts": {
+		"cy:run": "cypress run",
+		"cy:open": "cypress open",
+		"allure:report": "allure generate allure-results/ --clean -o allure-report",
+		"cy:chrome": "npx cypress run --spec cypress/e2e/spec.cy.js --env allure=true --browser chrome && npm run allure:report",
+		"cy:firefox": "npx cypress run --spec cypress/e2e/spec.cy.js --env allure=true --browser firefox && npm run allure:report",
+		"j:setup": "java -jar jenkins.war --enable-future-java"
+	},
+	"author": "Artur Alves",
+	"license": "ISC",
+	"devDependencies": {
+		"@shelex/cypress-allure-plugin": "^2.34.0",
+		"cypress": "^11.2.0",
+		"prettier": "^2.7.1"
+	}
+}

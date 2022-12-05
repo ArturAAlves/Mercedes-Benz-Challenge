@@ -5,7 +5,11 @@
 <h1>
   <p align="center">  Mercedes-Benz Challenge 
 </h1>
-  
+ 
+ 
+ <h2>Exploratory Testing⚡</h2> 
+ https://github.com/ArturAAlves/Mercedes-Benz-Challenge/blob/main/BugReportTemplate_1.0.docx
+ 
 <h2>Automation⚡</h2> 
 
 :white_check_mark: Automation with Cypress <br/>
@@ -69,4 +73,4 @@
 ![image](https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png)
 ![image](https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png)
 
-<h2>Exploratory Testing⚡</h2> 
+

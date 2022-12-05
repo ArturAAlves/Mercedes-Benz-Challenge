@@ -28,7 +28,8 @@
 
  - Download and Install Node (https://nodejs.org/en/download/)
  - Clone or download this repository 
- - Open the folder repository on your code editor , using the terminal, install dependencies by running the command: `npm install`
+ - Open the folder repository on your code editor
+ - using the terminal, install dependencies by running the command: `npm install`
  
  <h4>How to run?</h4> 
 
@@ -40,7 +41,7 @@
  
  - Run test with electron: `npm run cy:electron`
  
- - open report: `allure open`
+ - Open report: `allure open`
  
  
  <h4>How to Setup with Jenkins?</h4> 

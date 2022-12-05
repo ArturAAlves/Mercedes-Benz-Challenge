@@ -8,8 +8,12 @@
  
  
  <h2>Exploratory Testing⚡</h2> 
- https://github.com/ArturAAlves/Mercedes-Benz-Challenge/blob/main/BugReportTemplate_1.0.docx
+ To download the exploratory test doc, please click on the link: https://github.com/ArturAAlves/Mercedes-Benz-Challenge/blob/main/BugReportTemplate_1.0.docx , then click on download button.
+
+
+First part of the document contains the bugs that i was able to identify, in the end improvements. 
  
+
 <h2>Automation⚡</h2> 
 
 :white_check_mark: Automation with Cypress <br/>
@@ -62,15 +66,47 @@
   - Open terminal Run and run the command : `npm run j:setup"`
   
   - Open your browser on http://localhost:8080/
+  
+  
+<div align="left"/>
+   <h1></h1> 
+   <img src="https://user-images.githubusercontent.com/60219667/205745342-891fdeef-4185-4f76-9b08-19d1698e2bf4.png" width="500"/><br/>
+   <h4>1 - Insert Login and Password</h4>   
+   <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205745572-c48880cd-bbe8-41ca-a414-2f77acc7a5ac.png" width="500"/><br/>
+   <h4>2 - Click on Build new Item button</h4>   
+   <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205745816-dfb0eff4-a0d4-48f8-8f6c-3a77a439befd.png" width="500"/><br/>
+   <h4>3 - Type a project name on input box </h4>   
+   <h4>4 - Click on Pipeline Button</h4>  
+   <h4>5 - Click on Ok button</h4> 
+   <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746119-398bdd78-470c-4173-be4b-bd4087b9931b.png" width="500"/><br/>
+   <h4>6 - Scroll to Pipeline element</h4>   
+   <h4>7 - On Definitions Select "pipeline script from SCM"</h4>  
+   <h4>8 - On SCM select "Git"</h4> 
+   <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746168-1e267106-c9b9-44e5-a4e1-1e195e07e534.png" width="500"/><br/>
+    <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746310-c03999fd-503e-4f94-9fe3-499d5db2f96f.png" width="500"/><br/>
+    <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746486-87f2e44c-cd4f-477c-8154-447ebfcf531a.png" width="500"/><br/>
+    <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png" width="500"/><br/>
+    <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png" width="500"/><br/>
+    <h1></h1> 
+   <br/>
+</div>
 
-![image](https://user-images.githubusercontent.com/60219667/205745342-891fdeef-4185-4f76-9b08-19d1698e2bf4.png)
-![image](https://user-images.githubusercontent.com/60219667/205745572-c48880cd-bbe8-41ca-a414-2f77acc7a5ac.png)
-![image](https://user-images.githubusercontent.com/60219667/205745816-dfb0eff4-a0d4-48f8-8f6c-3a77a439befd.png)
-![image](https://user-images.githubusercontent.com/60219667/205746119-398bdd78-470c-4173-be4b-bd4087b9931b.png)
-![image](https://user-images.githubusercontent.com/60219667/205746168-1e267106-c9b9-44e5-a4e1-1e195e07e534.png)
-![image](https://user-images.githubusercontent.com/60219667/205746310-c03999fd-503e-4f94-9fe3-499d5db2f96f.png)
-![image](https://user-images.githubusercontent.com/60219667/205746486-87f2e44c-cd4f-477c-8154-447ebfcf531a.png)
-![image](https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png)
-![image](https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png)
+
 
 

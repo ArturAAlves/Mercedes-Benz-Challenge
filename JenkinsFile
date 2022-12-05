@@ -6,7 +6,7 @@ pipeline {
          //  string(name:'SPEC', defaultValue:'cypress/e2e/**/**', description:'enter the path that yout want to build')
         choice(name:'BROWSERS', choices: ['chrome', 'edge', 'firefox', 'electron'], description:'browser choices')
         /* groovylint-disable-next-line LineLength */
-        choice(name:'FEATUREFILE', choices: ['', '--spec cypress/e2e/spec.cy.js'], description:'select feature file to run')
+        choice(name:'FEATUREFILE', choices: ['', '--spec cypress/e2e/buildYourCarTest.cy.js'], description:'select feature file to run')
     }
     stages {
         stage('Build') {

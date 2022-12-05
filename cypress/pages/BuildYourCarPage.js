@@ -49,7 +49,7 @@ class BuildYourCar {
 	saveCarValues() {
 		cy.get(carValuesHeader).then($element => {
 			cy.writeFile(
-				'cypress/fixtures/carData.txt',
+				'cypress/documents/carData.txt',
 				Helper.getCarValueResults($element.text())
 			)
 		})

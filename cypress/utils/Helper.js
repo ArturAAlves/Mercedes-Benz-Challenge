@@ -23,7 +23,6 @@ function getSmallAndHigher(arr) {
 	smallAndHigher.push() */
 	return smallAndHigher
 }
-
 class Helper {
 	getCarValueResults(evaluate) {
 		let result = stringToArray(evaluate)

@@ -1,5 +1,6 @@
-import MainPage from '../pages/MainPage'
-import BuildYourCarPage from '../pages/BuildYourCarPage'
+import MainPage from '../../pages/MainPage'
+import BuildYourCarPage from '../../pages/BuildYourCarPage'
+const allure = Cypress.Allure.reporter.getInterface()
 
 describe('Validate A Class models price are between £15,000 and £60,000', () => {
 	Cypress.on('uncaught:exception', () => {

@@ -58,9 +58,26 @@
   - Open terminal Run and run the command : `npm run j:setup"`
   
   - Open your browser on http://localhost:8080/
-  
+  ![image](https://user-images.githubusercontent.com/60219667/205745194-bcc68308-a1e7-46dc-8084-3e5a79e5eba0.png)
+
 
 <h2>Exploratory Testing⚡</h2> 
 
- - Download or visit file on - > [Cypress + Cucumber and Allure Reporter use case](https://github.com/ArturAAlves/CypressExampleTesting) 
+![image](https://user-images.githubusercontent.com/60219667/205745342-891fdeef-4185-4f76-9b08-19d1698e2bf4.png)
+![image](https://user-images.githubusercontent.com/60219667/205745572-c48880cd-bbe8-41ca-a414-2f77acc7a5ac.png)
+![image](https://user-images.githubusercontent.com/60219667/205745816-dfb0eff4-a0d4-48f8-8f6c-3a77a439befd.png)
+![image](https://user-images.githubusercontent.com/60219667/205746119-398bdd78-470c-4173-be4b-bd4087b9931b.png)
+![image](https://user-images.githubusercontent.com/60219667/205746168-1e267106-c9b9-44e5-a4e1-1e195e07e534.png)
+![image](https://user-images.githubusercontent.com/60219667/205746310-c03999fd-503e-4f94-9fe3-499d5db2f96f.png)
+![image](https://user-images.githubusercontent.com/60219667/205746486-87f2e44c-cd4f-477c-8154-447ebfcf531a.png)
+![image](https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png)
+![image](https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png)
+
+
+
+
+
+
+
+
 <h2></h2>

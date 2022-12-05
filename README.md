@@ -22,7 +22,7 @@
  
  The value of the car with higher and lowe price is saved on cypress\documents\ .
  
- My second solution, is to setup the project with Jenkins and create a pipeline, i already prepared the file.
+ My second solution, is to setup the project with Jenkins and create a pipeline, and build the project with a CI/CD solution ( Only tested on Windows ).
 
 <h4>How to Setup?</h4> 
 
@@ -44,8 +44,20 @@
  
  
  <h4>How to Setup with Jenkins?</h4> 
+  
+  Since my test and validation was done only on windows, the OS available to me,
+  i sugest using (https://www.jenkins.io/doc/book/installing/) for a deeper guide on installation.
+  
+  For windows (https://www.jenkins.io/doc/book/installing/windows/) :
+
+  - After having all Prerequisites checked 
+
+  - Dowload the jenkins.war file and save it on the root of the project folder
  
- 
+  - Open terminal Run and run the command : `npm run j:setup"`
+  
+  - Open your browser on http://localhost:8080/
+  
 
 <h2>Exploratory Testing⚡</h2> 
 

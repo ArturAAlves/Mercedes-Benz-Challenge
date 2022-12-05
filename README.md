@@ -121,7 +121,7 @@ First part of the document contains the bugs that i was able to identify, in the
    <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205764173-4c0d1dc9-1fa4-4b6c-b944-635acf34ad36.png" width="500"/><br/>
-   <h4>17 - If all went according to plan, you should have a report on your build History  </h4> 
+   <h4>17 - If all went according to plan, you should have a report on your build History  :satisfied:</h4> 
 
    
    

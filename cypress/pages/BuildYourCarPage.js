@@ -32,10 +32,7 @@ class BuildYourCar {
 	}
 
 	takeScreenShot() {
-		/* 	cy.get(comparisonWrapper).screenshot({
-			overwrite: true,
-		}) */
-
+	
 		cy.get(comparisonWrapper).screenshot('Hatchbacks Diesel cars', {
 			overwrite: true,
 		})
@@ -49,7 +46,7 @@ class BuildYourCar {
 	saveCarValues() {
 		cy.get(carValuesHeader).then($element => {
 			cy.writeFile(
-				'cypress/documents/carData.txt',
+				`cypress/documents/${Helper.dataStamp()}-CarPrices.txt`,
 				Helper.getCarValueResults($element.text())
 			)
 		})

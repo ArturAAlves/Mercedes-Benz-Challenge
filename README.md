@@ -68,6 +68,10 @@ First part of the document contains the bugs that i was able to identify, in the
   - Open your browser on http://localhost:8080/
   
   
+  Suggested for better experience
+  - After completing step 1) and successfully access Jenkins Home page , go to Configure-->Manage Jenkins --> Go to plugin manager --> Search and install Allure Report plugin
+
+ 
 <div align="left"/>
    <h1></h1> 
    <img src="https://user-images.githubusercontent.com/60219667/205745342-891fdeef-4185-4f76-9b08-19d1698e2bf4.png" width="500"/><br/>
@@ -87,24 +91,40 @@ First part of the document contains the bugs that i was able to identify, in the
    <img src="https://user-images.githubusercontent.com/60219667/205746119-398bdd78-470c-4173-be4b-bd4087b9931b.png" width="500"/><br/>
    <h4>6 - Scroll to Pipeline element</h4>   
    <h4>7 - On Definitions Select "pipeline script from SCM"</h4>  
-   <h4>8 - On SCM select "Git"</h4> 
    <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205746168-1e267106-c9b9-44e5-a4e1-1e195e07e534.png" width="500"/><br/>
+   <h4>8 - On SCM select "Git"</h4> 
     <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205746310-c03999fd-503e-4f94-9fe3-499d5db2f96f.png" width="500"/><br/>
-    <h1></h1> 
+   <h4>9 - On the "Repository URL" field input type this repo adress : "https://github.com/ArturAAlves/Mercedes-Benz-Challenge"</h4> 
+   <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205746486-87f2e44c-cd4f-477c-8154-447ebfcf531a.png" width="500"/><br/>
-    <h1></h1> 
+   <h4>10 - Scroll down to "Branches to build" input field and type */main , since is the branch used</h4> 
+   <h1></h1> 
+   <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205762910-669478b3-c95a-4100-8531-fcc928bedae5.png" width="500"/><br/>
+   <h4>11 - Scroll down to the end of the page and click on "Apply" then "Save" button</h4> 
+   <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png" width="500"/><br/>
-    <h1></h1> 
+   <h4>12 - Click one time on Build now , it should fail, but will  import configs from jenkins file on the repo we configured</h4> 
+   <h1></h1> 
    <br/>
    <img src="https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png" width="500"/><br/>
-    <h1></h1> 
+   <h4>13 - Now you should see a button with "Build with Parameters" </h4> 
+   <h4>14 - Select the browser you want to run with" </h4> 
+   <h4>15 - Select the spec file you want to test, in this case, there will be only one available " </h4> 
+   <h4>16 - Click on Build </h4> 
+   <h1></h1> 
    <br/>
+   <img src="https://user-images.githubusercontent.com/60219667/205764173-4c0d1dc9-1fa4-4b6c-b944-635acf34ad36.png" width="500"/><br/>
+   <h4>17 - If all went according to plan, you should have a report on your build History  </h4> 
+
+   
+   
 </div>
 
 

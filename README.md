@@ -58,10 +58,6 @@
   - Open terminal Run and run the command : `npm run j:setup"`
   
   - Open your browser on http://localhost:8080/
-  ![image](https://user-images.githubusercontent.com/60219667/205745194-bcc68308-a1e7-46dc-8084-3e5a79e5eba0.png)
-
-
-<h2>Exploratory Testing⚡</h2> 
 
 ![image](https://user-images.githubusercontent.com/60219667/205745342-891fdeef-4185-4f76-9b08-19d1698e2bf4.png)
 ![image](https://user-images.githubusercontent.com/60219667/205745572-c48880cd-bbe8-41ca-a414-2f77acc7a5ac.png)
@@ -73,11 +69,4 @@
 ![image](https://user-images.githubusercontent.com/60219667/205746659-c2fbf5a7-050e-46ae-b0a8-c82d2208e681.png)
 ![image](https://user-images.githubusercontent.com/60219667/205746803-0b1290f7-8ac3-49a9-87c7-beabb6cc8eb6.png)
 
-
-
-
-
-
-
-
-<h2></h2>
+<h2>Exploratory Testing⚡</h2> 

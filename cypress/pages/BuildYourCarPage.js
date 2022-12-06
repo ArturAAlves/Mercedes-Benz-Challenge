@@ -2,7 +2,6 @@ import data from '../fixtures/data.json'
 import Helper from '../utils/Helper'
 
 const acceptAllBtn = '.wb-button--accept-all'
-const agreeAllText = 'Agree to all'
 const fuelSelectorBtn = '.wb-multi-select-control__button'
 const comparisonWrapper = '.cc-motorization-comparison-wrapper'
 const carValuesHeader = '.cc-motorization-header__price'
@@ -12,7 +11,7 @@ const f = { force: true }
 class BuildYourCar {
 	navigateTo() {
 		cy.visit(data.AClassConfigURL)
-		cy.get(acceptAllBtn).contains(agreeAllText).click(f)
+		Helper.acceptAllCookies(acceptAllBtn)
 	}
 
 	selectModel() {
@@ -32,7 +31,6 @@ class BuildYourCar {
 	}
 
 	takeScreenShot() {
-	
 		cy.get(comparisonWrapper).screenshot('Hatchbacks Diesel cars', {
 			overwrite: true,
 		})

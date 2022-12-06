@@ -1,3 +1,5 @@
+const acceptAllBtn = '.wb-button--accept-all'
+
 function stringToArray(val) {
 	console.log(val)
 	cy.log(val)
@@ -38,6 +40,12 @@ class Helper {
 		if (day.length < 2) day = '0' + day
 
 		return [year, month, day].join('-')
+	}
+
+	acceptAllCookies() {
+		//flaky
+		//cy.clearCookies()
+		return cy.get(acceptAllBtn).click({ multiple: true, force: true })
 	}
 }
 

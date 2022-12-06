@@ -1,5 +1,6 @@
 import data from '../fixtures/data.json'
 import BuildYourCar from './BuildYourCarPage'
+import Helper from '../utils/Helper'
 
 const acceptAllBtn = '.wb-button--accept-all'
 const agreeAllText = 'Agree to all'
@@ -12,7 +13,8 @@ const f = { force: true }
 class MainPage {
 	navigateTo() {
 		cy.visit(Cypress.config().baseUrl)
-		cy.get(acceptAllBtn).contains(agreeAllText).click(f)
+		Helper.acceptAllCookies()
+		
 	}
 
 	selectModel() {

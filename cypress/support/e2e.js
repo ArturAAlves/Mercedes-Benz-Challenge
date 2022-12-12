@@ -14,6 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+/// <reference types="Cypress" />
 import './commands'
 import '@shelex/cypress-allure-plugin'
 

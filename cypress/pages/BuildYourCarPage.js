@@ -1,7 +1,6 @@
 import data from '../fixtures/data.json'
 import Helper from '../utils/Helper'
 
-const acceptAllBtn = '.wb-button--accept-all'
 const fuelSelectorBtn = '.wb-multi-select-control__button'
 const comparisonWrapper = '.cc-motorization-comparison-wrapper'
 const carValuesHeader = '.cc-motorization-header__price'
@@ -11,7 +10,7 @@ const f = { force: true }
 class BuildYourCar {
 	navigateTo() {
 		cy.visit(data.AClassConfigURL)
-		Helper.acceptAllCookies(acceptAllBtn)
+		Helper.acceptAllCookies()
 	}
 
 	selectModel() {

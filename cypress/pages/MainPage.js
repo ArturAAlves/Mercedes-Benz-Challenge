@@ -2,11 +2,11 @@ import data from '../fixtures/data.json'
 import BuildYourCar from './BuildYourCarPage'
 import Helper from '../utils/Helper'
 
-const acceptAllBtn = '.wb-button--accept-all'
-const agreeAllText = 'Agree to all'
+const allCarsContainer = '.dh-io-vmos_tGY4l'
 const carModelBtn = '.dh-io-vmos_1RKkS'
 const carCardContainer = '.dh-io-vmos_NvMoW'
-const textToFilterCar = '£31,880'
+const carTittleClass = '.dh-io-vmos_1PW4e'
+const titleName = '.A-Class Hatchback'
 
 const f = { force: true }
 
@@ -14,7 +14,6 @@ class MainPage {
 	navigateTo() {
 		cy.visit(Cypress.config().baseUrl)
 		Helper.acceptAllCookies()
-		
 	}
 
 	selectModel() {
@@ -22,24 +21,18 @@ class MainPage {
 	}
 
 	buildYourCar() {
+		cy.get(allCarsContainer).scrollIntoView()
 		cy.get(carCardContainer)
-			.contains(textToFilterCar)
-			.scrollIntoView()
-			.trigger('mouseover')
-
-		//The navigation to the "Build your car" link will crash/block the test,
-		//The error occurs in several Links.
-		//My work around is to open directly the specific link "Build your car".
-
-		/****** CODE EXAMPLE ******/
-		/* 	cy.get(cardInner) 
-			.contains('31,880')
-			.trigger('mouseover')
-			.within(e => {
-				cy.get(e).contains('Build your car').click()
-	    })*/
-
-		BuildYourCar.navigateTo()
+			.each($el => {
+				let text = $el.find(carTittleClass).text()
+				if (text == titleName) {
+					cy.get($el).trigger('mouseover')
+				}
+			})
+			.then(() => {
+				/* cy.get('.dh-io-vmos_2JRAq').click() */
+				BuildYourCar.navigateTo()
+			})
 	}
 }
 

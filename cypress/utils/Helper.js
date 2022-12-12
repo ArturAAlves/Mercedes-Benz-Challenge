@@ -1,11 +1,8 @@
 const acceptAllBtn = '.wb-button--accept-all'
 
 function stringToArray(val) {
-	console.log(val)
-	cy.log(val)
 	let reg = /\d+\.*\d*/g
 	let replaced = val.replace(/,/g, '.')
-
 	let evaluate = replaced
 		.match(reg)
 		.map(e => {
@@ -28,6 +25,7 @@ function getSmallAndHigher(arr) {
 class Helper {
 	getCarValueResults(evaluate) {
 		let result = stringToArray(evaluate)
+
 		return result
 	}
 	dataStamp() {
@@ -38,7 +36,6 @@ class Helper {
 
 		if (month.length < 2) month = '0' + month
 		if (day.length < 2) day = '0' + day
-
 		return [year, month, day].join('-')
 	}
 

@@ -30,6 +30,7 @@ class MainPage {
 				}
 			})
 			.then(() => {
+				//flakiness , some clicks and requests,  shut down the framework
 				/* cy.get('.dh-io-vmos_2JRAq').click() */
 				BuildYourCar.navigateTo()
 			})

@@ -12,7 +12,8 @@
 		"cy:firefox": "npx cypress run --spec cypress/e2e/tests/buildYourCarTest.cy.js --env allure=true --browser firefox && npm run allure:report",
 		"cy:edge": "npx cypress run --spec cypress/e2e/tests/buildYourCarTest.cy.js --env allure=true --browser edge && npm run allure:report",
 		"cy:electron": "npx cypress run --spec cypress/e2e/tests/buildYourCarTest.cy.js --env allure=true --browser electron && npm run allure:report",
-		"j:setup": "java -jar jenkins.war --enable-future-java"
+		"j:setup": "java -jar jenkins.war --enable-future-java",
+		"docker": "docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:9.7.0 --spec cypress/e2e/tests/buildYourCarTest.cy.js --browser chrome"
 	},
 	"author": "Artur Alves",
 	"license": "ISC",
